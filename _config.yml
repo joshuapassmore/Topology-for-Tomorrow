@@ -1,0 +1,35 @@
+title: Topology for Tomorrow
+description: Topology research group at the University of the Western Cape
+lang: en-ZA
+timezone: Africa/Johannesburg
+url: https://joshuapassmore.org
+baseurl: /Topology-for-Tomorrow
+
+theme: jekyll-theme-slate
+show_downloads: false
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+markdown: kramdown
+kramdown:
+  input: Kramdown
+  math_engine: mathjax
+
+navigation:
+  - title: Home
+    url: /
+  - title: Seminars
+    url: /seminars.html
+  - title: Members
+    url: /members.html
+  - title: Research philosophy
+    url: /philosophy.html
+
+exclude:
+  - README.md
+  - abstracts/README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
